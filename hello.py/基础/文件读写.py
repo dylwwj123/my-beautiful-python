@@ -86,3 +86,4 @@ errors:错误处理
 import pickle #数据持久化模块
 
 mylist = [1,2,3,4,5,"py","派森"];
+print(mylist)
