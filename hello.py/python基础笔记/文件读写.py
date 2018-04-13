@@ -85,5 +85,17 @@ errors:错误处理
 
 import pickle #数据持久化模块
 
-mylist = [1,2,3,4,5,"py","派森"];
-print(mylist)
+dict = {"name":"sb","age":18}
+
+# mylist = (1,2,3,4,5,"py","派森");
+
+path = r"/Users/wukaihao/Desktop/python/hello.py/file/qq3.txt"
+wf = open(path,"wb")
+pickle.dump(dict,wf)
+wf.close()
+
+#读取
+rf = open(path,"rb")
+readlist = pickle.load(rf)
+rf.close()
+print(readlist)
