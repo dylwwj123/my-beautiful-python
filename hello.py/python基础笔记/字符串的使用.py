@@ -6,6 +6,7 @@ print("string1 =",len(string11))
 string2 = string1[1]
 print("string2 =",string2)
 
+#字符串截取
 string3 = string1[:4]
 string4 = string1[4:7]
 string5 = string1[7:]

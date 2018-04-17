@@ -15,6 +15,8 @@ def func2(func):
 
 f = func2(func1)
 
+# __author__ = 'Michael Liao'
+# print(__author__)
 
 #复杂的装饰器
 def log(func):

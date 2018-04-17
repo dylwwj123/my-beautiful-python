@@ -33,3 +33,24 @@ import os
 
 #删除文件
 #os.remove("")
+
+#练习
+'''
+def print_directory_contents(sPath):
+    """
+    这个函数接受文件夹的名称作为输入参数，
+    返回该文件夹中文件的路径，
+    以及其包含文件夹中文件的路径。
+
+    """
+    # 补充代码
+'''
+def print_directory_contents(swift):
+    for sChild in os.listdir(swift):
+        sChildPath = os.path.join(swift,sChild)
+        if os.path.isdir(sChildPath):
+            print_directory_contents(sChildPath)
+        else:
+            print (sChildPath)
+
+print_directory_contents(r"/Users/wukaihao/Desktop/aaa")

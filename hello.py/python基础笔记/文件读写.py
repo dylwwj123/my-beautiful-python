@@ -83,19 +83,37 @@ errors:错误处理
 
 # list & tuple & dict & set 的文件操作
 
-import pickle #数据持久化模块
+# import pickle #数据持久化模块
+#
+# dict = {"name":"sb","age":18}
+#
+# # mylist = (1,2,3,4,5,"py","派森");
+#
+# path = r"/Users/wukaihao/Desktop/python/hello.py/file/qq3.txt"
+# wf = open(path,"wb")
+# pickle.dump(dict,wf)
+# wf.close()
+#
+# #读取
+# rf = open(path,"rb")
+# readlist = pickle.load(rf)
+# rf.close()
+# print(readlist)
 
-dict = {"name":"sb","age":18}
 
-# mylist = (1,2,3,4,5,"py","派森");
+#练习给文件夹分类
+path = open(r"/Users/wukaihao/Desktop/python/hello.py/file/str2.txt","r",encoding="utf-8")
+strpath1 = path.readlines()
+print(strpath1)
+path.close()
 
-path = r"/Users/wukaihao/Desktop/python/hello.py/file/qq3.txt"
-wf = open(path,"wb")
-pickle.dump(dict,wf)
-wf.close()
+for emile in strpath1:
+    str1 = emile
+    index1 = emile.find("@")
+    index2 = emile.find(".")
+    str2 = str1[index1+1:index2]
+    print(str2)
+    saveurl = ("/Users/wukaihao/Desktop/python/hello.py/file/%s.txt" %(str2))
+    with open(saveurl,"a",encoding="utf-8") as f2:
+        f2.write(emile)
 
-#读取
-rf = open(path,"rb")
-readlist = pickle.load(rf)
-rf.close()
-print(readlist)
