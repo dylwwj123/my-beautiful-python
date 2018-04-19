@@ -2,6 +2,23 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/PythonClass/ClassDemo1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PythonClass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python基础笔记" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python模块笔记" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/测试的file" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/爬虫" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python面向对象" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python面向对象/ClassDemo1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python面向对象/继承" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python面向对象/单继承" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python面向对象/多继承" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python面向对象/多态" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/小项目" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/小项目/收发邮箱" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/小项目/发邮箱与验证码" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/小项目/银行自动提款机" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />

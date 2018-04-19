@@ -21,3 +21,15 @@ import requests
 
 # 把缩放后的图像用jpeg格式保存:
 # im.save('thumbnail.jpg', 'jpeg')
+
+
+import requests
+
+# r = requests.post('https://www.douban.com/',params={'q': 'python', 'cat': '1001'})
+# print(r.status_code)
+# print(r.encoding)
+# print(r.content)
+# print(r.text)
+
+# r1 = requests.get('https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20%3D%202151330&format=json')
+# print(r1.json())
