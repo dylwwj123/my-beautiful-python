@@ -18,7 +18,7 @@
       <sourceFolder url="file://$MODULE_DIR$/小项目" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/小项目/收发邮箱" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/小项目/发邮箱与验证码" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/小项目/银行自动提款机" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/小项目/ATM机" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
