@@ -47,11 +47,51 @@ class ATM(object):
             print("密码错误")
             return -1
 
-    def pushMoney(self):
-        pass
+        print("姓名: %s  余额: %d" %(user.name, user.card.cardMoney))
 
     def saveMoney(self):
-        pass
+
+        carNum = input("请输入您的卡号: ")
+
+        user = self.allUsers.get(carNum)
+
+        if user == None:
+            print("卡号不存在")
+            return -1
+
+        if not self.checkPsd(user.card.cardPassword):
+            print("密码错误")
+            return -1
+
+        print("余额: %d" % (user.card.cardMoney))
+
+        nowMoney = int(input("请输入存款金额: "))
+
+        user.card.cardMoney = user.card.cardMoney + nowMoney
+
+        print("余额: %d" % (user.card.cardMoney))
+
+    def pushMoney(self):
+
+        carNum = input("请输入您的卡号: ")
+
+        user = self.allUsers.get(carNum)
+
+        if user == None:
+            print("卡号不存在")
+            return -1
+
+        if not self.checkPsd(user.card.cardPassword):
+            print("密码错误")
+            return -1
+
+        print("余额: %d" %(user.card.cardMoney))
+
+        nowMoney = int(input("请输入取款金额: "))
+
+        user.card.cardMoney = user.card.cardMoney-nowMoney
+
+        print("余额: %d" %(user.card.cardMoney))
 
     def transfer(self):
         pass

@@ -28,9 +28,9 @@ def main():
         elif option == "2":
             atm.searchUser()
         elif option == "3":
-            print("存款")
+            atm.saveMoney()
         elif option == "4":
-            print("取款")
+            atm.pushMoney()
         elif option == "5":
             print("转账")
         elif option == "6":
