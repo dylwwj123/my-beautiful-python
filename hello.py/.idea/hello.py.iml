@@ -24,6 +24,12 @@
       <sourceFolder url="file://$MODULE_DIR$/小项目/自动化办公/读写csv文件" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/小项目/自动化办公/读取PDF文件" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/小项目/自动化办公/播放音乐" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python模块笔记/包" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python模块笔记/包/a" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python模块笔记/包/b" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/小项目/测试/单元测试" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/小项目/测试" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/小项目/测试/类的测试" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
