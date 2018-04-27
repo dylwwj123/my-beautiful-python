@@ -63,11 +63,13 @@ print(list8)
 
 list9 = list8 #浅拷贝 内存地址同一份 复制一个栈区指向相同的堆区
 list10 = list8.copy() #深拷贝 内存地址两份 两个栈区指向两个堆
-list9[1] = 100
+list9[1] = 4
 list10[1] = 200
+print(list10)
+print(list9)
 print(list8)
 print(list9)
-print(list10)
+
 
 tuple1 = (1,2,3)
 list11 = list(tuple1) #将元组转换成list

@@ -1,0 +1,778 @@
+
+
+
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+    
+留下你的qq号看有多少人加、 - 小组话题
+ - 豆瓣
+</title>
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="canonical" href="
+http://m.douban.com/group/topic/17359302/">
+        <link href="https://img3.doubanio.com/f/talion/454d91e5b3534c7d91d7cb911cefe2b33042958f/css/card/base.css" rel="stylesheet">
+        
+    
+    <meta name="description" content="留下你的qq号看有多少人加、 留下你的qq号看有多少人加 从陌生变得熟悉 恶搞童鞋请绕道 让关于安妮的声音从这里开始、、QQ群93175519">
+    
+    <meta name="keywords" content="豆瓣,小组,帖子,作家">
+
+    
+    
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="留下你的qq号看有多少人加、 - 小组话题">
+    <meta itemprop="description" content="留下你的qq号看有多少人加 从陌生变得熟悉 恶搞童鞋请绕道 让关于安妮的声音从这里开始、、QQ群93175519">
+    <meta itemprop="image" content="https://img3.doubanio.com/f/talion/8e7b9cbd097c02972c4191aa03fdb084524505c4/pics/icon/m_logo_180.png">
+    <!-- Twitter meta -->
+    <meta name="twitter:card" content="summary" />
+    <!-- Open Graph meta -->
+    <meta property="og:title" content="留下你的qq号看有多少人加、 - 小组话题" />
+    <meta property="og:description" content="留下你的qq号看有多少人加 从陌生变得熟悉 恶搞童鞋请绕道 让关于安妮的声音从这里开始、、QQ群93175519" />
+    <meta property="og:site_name" content="豆瓣(手机版)" />
+    <meta property="og:url" content="https://m.douban.com/group/topic/17359302/" />
+    <meta property="og:image" content="https://img3.doubanio.com/f/talion/8e7b9cbd097c02972c4191aa03fdb084524505c4/pics/icon/m_logo_180.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:type" content="article" />
+    <!-- Wechat meta -->
+    <meta property="weixin:timeline_title" content="留下你的qq号看有多少人加、 - 小组话题" />
+    <meta property="weixin:chat_title" content="留下你的qq号看有多少人加、 - 小组话题" />
+    <meta property="weixin:description" content="留下你的qq号看有多少人加 从陌生变得熟悉 恶搞童鞋请绕道 让关于安妮的声音从这里开始、、QQ群93175519" />
+    <meta property="weixin:image" content="https://img3.doubanio.com/f/talion/8e7b9cbd097c02972c4191aa03fdb084524505c4/pics/icon/m_logo_180.png" />
+    
+
+
+    
+
+    
+    
+
+    
+  <link rel="miphtml" href="https://m.douban.com/mip/group/topic/17359302/">
+
+
+        <link rel="stylesheet" href="https://img3.doubanio.com/misc/mixed_static/708789d9938f6563.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://img3.doubanio.com/f/talion/c970bb0d720963a7392f7dd6c77068bb9925caaf/pics/icon/dou16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://img3.doubanio.com/f/talion/2f3c0bc0f35b031d4535fd993ae3936f4e40e6c8/pics/icon/dou32.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="https://img3.doubanio.com/f/talion/10a4a913a5715f628e4b598f7f9f2c18621bdcb3/pics/icon/dou48.png">
+        <!-- iOS touch icon -->
+        <link rel="apple-touch-icon-precomposed" href="https://img3.doubanio.com/f/talion/997f2018d82979da970030a5eb84c77f0123ae5f/pics/icon/m_logo_76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://img3.doubanio.com/f/talion/997f2018d82979da970030a5eb84c77f0123ae5f/pics/icon/m_logo_76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://img3.doubanio.com/f/talion/18932a3e71a60ed7150ca2ca7ebf21ddadd7092e/pics/icon/m_logo_120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://img3.doubanio.com/f/talion/b99497ff8538c54b9ba6f40867da932396ab2562/pics/icon/m_logo_152.png">
+        <link rel="apple-touch-icon-precomposed" sizes="167x167" href="https://img3.doubanio.com/f/talion/0c233ada957a95e632f81607e30230d16e8293e8/pics/icon/m_logo_167.png">
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://img3.doubanio.com/f/talion/8e7b9cbd097c02972c4191aa03fdb084524505c4/pics/icon/m_logo_180.png">
+        <link rel="apple-touch-icon-precomposed" sizes="200x200" href="https://img3.doubanio.com/f/talion/7c6364aadf368dc0210173c940cfd0f64ceddc66/pics/icon/m_logo_200.png">
+        <!-- For Android -->
+        <link rel="icon" sizes="128x128" href="https://img3.doubanio.com/f/talion/b99497ff8538c54b9ba6f40867da932396ab2562/pics/icon/m_logo_152.png">
+        <link rel="icon" sizes="192x192" href="https://img3.doubanio.com/f/talion/7c6364aadf368dc0210173c940cfd0f64ceddc66/pics/icon/m_logo_200.png">
+        <!-- For Web App Manifest -->
+        
+
+        <link type="application/opensearchdescription+xml" rel="search" href="/opensearch"/>
+            <!-- hm baidu -->
+            <script type="text/javascript">
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?6d4a8cfea88fa457c3127e14fb5fabc2";
+              var s = document.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(hm, s);
+            })();
+            </script>
+    </head>
+    <body ontouchstart="">
+        
+    
+    
+
+  
+      
+    <div class="bottom_ad_download show">
+        
+      
+    
+        
+
+    <div id="dale_tailon_group_bottom_floating_inner" class="Advertisement" ></div>
+    
+
+    
+
+    </div>
+    
+
+
+        
+
+        
+    
+    
+        <div id="TalionNav"><header class="TalionNav"><div class="TalionNav-primary"><a href="/"><h1>豆瓣</h1></a><nav><ul><li><a href="https://www.douban.com/doubanapp/app?model=B&amp;amp;copy=1&amp;amp;page=topiclist&amp;amp;channel=card_topiclist&amp;amp;direct_dl=1" style="color: #42BD56;">豆瓣App</a></li></ul><span class=""></span></nav></div><div class="TalionNav-secondary"><a class="close-nav" href="javascript:;">关闭</a><form action="/search" method="GET"><div><input name="query" type="search"></div></form><ul><li><div><a href="/movie" target="_blank"><strong style="color: #2384E8;">电影</strong><span>影院热映</span></a><a href="https://douban.com/location" target=""><strong style="color: #E6467E;">同城</strong><span>周末活动</span></a><a href="https://read.douban.com" target=""><strong style="color: #9F7860;">阅读</strong><span>电子书</span></a><a href="/status" target="_blank"><strong style="color: #E1644D;">广播</strong><span>友邻动态</span></a></div></li><li><div><a href="/tv" target="_blank"><strong style="color: #7A6ADB;">电视</strong><span>正在热播</span></a><a href="/group" target="_blank"><strong style="color: #2AB8CC;">小组</strong><span>志趣相投</span></a><a href="/game" target="_blank"><strong style="color: #5774C5;">游戏</strong><span>虚拟世界</span></a><a href="https://douban.fm" target=""><strong style="color: #40CFA9;">FM</strong><span>红心歌单</span></a></div></li><li><div><a href="/book" target="_blank"><strong style="color: #9F7860;">图书</strong><span>畅销排行</span></a><a href="/music" target="_blank"><strong style="color: #F48F2E;">音乐</strong><span>新碟榜</span></a><a href="/mobileapp" target="_blank"><strong style="color: #596CDD;">应用</strong><span>玩手机</span></a><a href="https://market.douban.com/?utm_campaign=mobile_web_douban_nav&amp;utm_source=douban&amp;utm_medium=mobile_web" target=""><strong style="color: #42BD56;">市集</strong><span>购买原创</span></a></div></li></ul><div class="navBottom"><div class="nav-item"><a class="toUser" href="/mine/">我的豆瓣</a><a class="toExit" href="https://accounts.douban.com/logout?ck=undefined">退出豆瓣</a></div><div class="nav-item"><a class="toPC" href="/to_pc/?url=about%3Ablank">使用桌面版</a><a class="toApp">使用豆瓣App</a></div></div></div></header></div>
+
+
+        <div class="page">
+            
+    
+    <div class="card">
+        
+    <section class="header s-content">
+        <a href="/group/12083/">
+            <span class="ref">
+                <img class="group-icon" data-src="https://img1.doubanio.com/view/group/sqxs/public/73c15faa07cce3a.jpg" alt="安妮宝贝" />
+                <span class="group-info">
+                    <span class="group-url">&nbsp;去小组页 &gt;</span>
+                    <span class="group-name">安妮宝贝</span>
+                    <span class="group-member">
+                        <span class="user-group">
+                                <img src="https://img3.doubanio.com/icon/up79433983-2.jpg"/>
+                                <img src="https://img3.doubanio.com/icon/user_large.jpg"/>
+                                <img src="https://img3.doubanio.com/icon/up75510070-5.jpg"/>
+                                <img src="https://img3.doubanio.com/icon/user_large.jpg"/>
+                        </span>
+                        <span class="group-member-info">63856个成员</span>
+                    </span>
+                </span>
+                
+            </span>
+        </a>
+        <h1 class="title">
+            留下你的qq号看有多少人加、
+        </h1>
+        <div class="user-title">
+            <span class="info">
+                度心
+                <span class="timestamp">2011-02-01 02:41:24</span>
+            </span>
+        </div>
+    </section>
+
+        <section class="note-content paper">
+            
+            <div class="note-body" id="note-body">
+                
+                    
+  <div id='content'><p>留下你的qq号看有多少人加 从陌生变得熟悉 恶搞童鞋请绕道 让关于安妮的声音从这里开始、、QQ群93175519</p></div>
+
+    
+    
+
+
+
+
+                    
+    
+    
+    <a  href="javascript:void(0)" id="note-like-btn" data-islike="0" data-likenum="6" data-islogin=0 rel="nofollow">
+        <span>6</span>
+    </a>
+    
+
+            </div>
+
+            <script>
+                ;[].slice.call(document.querySelectorAll('.note-body video')).forEach(function(e){
+                    e.classList.add('video-not-loaded');
+                })
+            </script>
+        </section>
+
+        
+    
+    <section class="s-content center">
+    
+        
+
+    <div id="dale_talion_group_topic_top" class="Advertisement" ></div>
+    
+
+    
+</section>
+
+
+
+        <section class="note-comments">
+            
+
+            
+    <h2>回应
+            (<span id="n_comments">554</span>条)
+                <a href="?author=1" class="watch-owner">只看楼主</a>
+    </h2>
+    
+    <ul id="reply-list" class="reply" data-msg="请先登录">
+            
+            <li class="reply-item">
+                <div class="reply-meta">
+                    <a href="/people/47407845/">
+                      <img src="https://img3.doubanio.com/icon/up47407845-1.jpg">
+                    </a>
+                    <div>
+                        <span>度心</span>
+                        <time>2011-02-01 02:43:06</time>
+                    </div>
+                </div>
+                <div class="reply-content">
+                    641230082 注明豆瓣
+                </div>
+
+                
+
+                    <div class="reply-tool" data-cid="199996777" data-start="0" data-tid="17359302" data-islogin="false">
+                        <a href="javascript:void(0)" class="reply-like" rel="nofollow">0</a>
+                        <a href="javascript:void(0)"
+                            class="reply-comment"
+                            data-tid="17359302"
+                            data-cid="199996777"
+                            data-author="度心"
+                            data-icon="https://img3.doubanio.com/icon/up47407845-1.jpg"
+                            data-text="641230082 注明豆瓣" rel="nofollow">&nbsp;
+                        </a>
+                        <a href="javascript:void(0)" class="reply-more" rel="nofollow"></a>
+                    </div>
+
+                    <div
+                        class="more-menu-box"
+                        data-can-report="true"
+                        data-can-delete="false"
+                        data-tid="17359302"
+                        data-cid="199996777"
+                        data-islogin="false"
+                        data-report-url="https://m.douban.com/group/topic/17359302/comments#199996777">
+                    </div>
+            </li>
+            
+            <li class="reply-item">
+                <div class="reply-meta">
+                    <a href="/people/49038156/">
+                      <img src="https://img3.doubanio.com/icon/user_large.jpg">
+                    </a>
+                    <div>
+                        <span>[已注销]</span>
+                        <time>2011-02-01 07:41:41</time>
+                    </div>
+                </div>
+                <div class="reply-content">
+                    363351793。。不解释。
+                </div>
+
+                
+
+                    <div class="reply-tool" data-cid="200009758" data-start="0" data-tid="17359302" data-islogin="false">
+                        <a href="javascript:void(0)" class="reply-like" rel="nofollow">0</a>
+                        <a href="javascript:void(0)"
+                            class="reply-comment"
+                            data-tid="17359302"
+                            data-cid="200009758"
+                            data-author="[已注销]"
+                            data-icon="https://img3.doubanio.com/icon/user_large.jpg"
+                            data-text="363351793。。不解释。" rel="nofollow">&nbsp;
+                        </a>
+                        <a href="javascript:void(0)" class="reply-more" rel="nofollow"></a>
+                    </div>
+
+                    <div
+                        class="more-menu-box"
+                        data-can-report="true"
+                        data-can-delete="false"
+                        data-tid="17359302"
+                        data-cid="200009758"
+                        data-islogin="false"
+                        data-report-url="https://m.douban.com/group/topic/17359302/comments#200009758">
+                    </div>
+            </li>
+            
+            <li class="reply-item">
+                <div class="reply-meta">
+                    <a href="/people/42250822/">
+                      <img src="https://img1.doubanio.com/icon/up42250822-8.jpg">
+                    </a>
+                    <div>
+                        <span>阿诺</span>
+                        <time>2011-02-01 09:55:16</time>
+                    </div>
+                </div>
+                <div class="reply-content">
+                    353787169
+                </div>
+
+                
+
+                    <div class="reply-tool" data-cid="200020172" data-start="0" data-tid="17359302" data-islogin="false">
+                        <a href="javascript:void(0)" class="reply-like" rel="nofollow">0</a>
+                        <a href="javascript:void(0)"
+                            class="reply-comment"
+                            data-tid="17359302"
+                            data-cid="200020172"
+                            data-author="阿诺"
+                            data-icon="https://img1.doubanio.com/icon/up42250822-8.jpg"
+                            data-text="353787169" rel="nofollow">&nbsp;
+                        </a>
+                        <a href="javascript:void(0)" class="reply-more" rel="nofollow"></a>
+                    </div>
+
+                    <div
+                        class="more-menu-box"
+                        data-can-report="true"
+                        data-can-delete="false"
+                        data-tid="17359302"
+                        data-cid="200020172"
+                        data-islogin="false"
+                        data-report-url="https://m.douban.com/group/topic/17359302/comments#200020172">
+                    </div>
+            </li>
+            
+            <li class="reply-item">
+                <div class="reply-meta">
+                    <a href="/people/3263239/">
+                      <img src="https://img1.doubanio.com/icon/up3263239-7.jpg">
+                    </a>
+                    <div>
+                        <span>心里挺乱的</span>
+                        <time>2011-02-01 10:19:41</time>
+                    </div>
+                </div>
+                <div class="reply-content">
+                    同意上上…的说法<br>感觉豆和Q 两回事<br>真心聊天 1063717088<br>工作 在外表现779166009<br>同学好友同事913241662<br>愿意夜聊 可加最上
+                </div>
+
+                
+
+                    <div class="reply-tool" data-cid="200024008" data-start="0" data-tid="17359302" data-islogin="false">
+                        <a href="javascript:void(0)" class="reply-like" rel="nofollow">0</a>
+                        <a href="javascript:void(0)"
+                            class="reply-comment"
+                            data-tid="17359302"
+                            data-cid="200024008"
+                            data-author="心里挺乱的"
+                            data-icon="https://img1.doubanio.com/icon/up3263239-7.jpg"
+                            data-text="同意上上…的说法
+感觉豆和Q 两回事
+真心聊天 1063717088
+工作 在外表现779166009
+同学好友同事913241662
+愿意夜聊 可加最上" rel="nofollow">&nbsp;
+                        </a>
+                        <a href="javascript:void(0)" class="reply-more" rel="nofollow"></a>
+                    </div>
+
+                    <div
+                        class="more-menu-box"
+                        data-can-report="true"
+                        data-can-delete="false"
+                        data-tid="17359302"
+                        data-cid="200024008"
+                        data-islogin="false"
+                        data-report-url="https://m.douban.com/group/topic/17359302/comments#200024008">
+                    </div>
+            </li>
+            
+            <li class="reply-item">
+                <div class="reply-meta">
+                    <a href="/people/43140004/">
+                      <img src="https://img3.doubanio.com/icon/user_large.jpg">
+                    </a>
+                    <div>
+                        <span>[已注销]</span>
+                        <time>2011-02-01 10:24:15</time>
+                    </div>
+                </div>
+                <div class="reply-content">
+                    57630279 
+                </div>
+
+                
+
+                    <div class="reply-tool" data-cid="200024758" data-start="0" data-tid="17359302" data-islogin="false">
+                        <a href="javascript:void(0)" class="reply-like" rel="nofollow">0</a>
+                        <a href="javascript:void(0)"
+                            class="reply-comment"
+                            data-tid="17359302"
+                            data-cid="200024758"
+                            data-author="[已注销]"
+                            data-icon="https://img3.doubanio.com/icon/user_large.jpg"
+                            data-text="57630279 " rel="nofollow">&nbsp;
+                        </a>
+                        <a href="javascript:void(0)" class="reply-more" rel="nofollow"></a>
+                    </div>
+
+                    <div
+                        class="more-menu-box"
+                        data-can-report="true"
+                        data-can-delete="false"
+                        data-tid="17359302"
+                        data-cid="200024758"
+                        data-islogin="false"
+                        data-report-url="https://m.douban.com/group/topic/17359302/comments#200024758">
+                    </div>
+            </li>
+    </ul>
+    <input type="hidden" id="tid" value="17359302" data-enable-add-btn="1">
+
+    
+        <script src="https://img3.doubanio.com/f/talion/88fc2b21c8dda5c93aa4c011eb15b74f8850978f/js/lib/react/15.3.0/react-all.min.js"></script>
+
+
+    
+    
+
+
+        <a class="go-href" href="comments/" rel="nofollow">查看更多回应（554）/&nbsp;&nbsp;添加回应</a>
+
+        </section>
+
+        
+    
+    <section class="s-content center">
+    
+        
+
+    <div id="dale_talion_group_topic_center" class="Advertisement" ></div>
+    
+
+    
+</section>
+
+
+        
+        
+    <section id="recommends" data-target-id="17359302" data-target-type="1013"></section>
+
+        
+    <div id="comment-warp"></div>
+    
+        <section class="groups-similar">
+            <h2>推荐小组</h2>
+            <ul class="s-content">
+                    <li class="group">
+                        <a href="/group/15393/">
+                            <img class="group-icon" data-src="https://img3.doubanio.com/icon/g15393-1.jpg" alt="左手王菲,右手安妮" />
+                            <div class="group-name">左手王菲,右手安妮</div>
+                        </a>
+                    </li>
+                    <li class="group">
+                        <a href="/group/10197/">
+                            <img class="group-icon" data-src="https://img3.doubanio.com/view/group/sqxs/public/a10bcb6a820e680.jpg" alt="我爱亦舒" />
+                            <div class="group-name">我爱亦舒</div>
+                        </a>
+                    </li>
+                    <li class="group">
+                        <a href="/group/10355/">
+                            <img class="group-icon" data-src="https://img3.doubanio.com/view/group/sqxs/public/cb3166fd7f9df24.jpg" alt="岩井俊二" />
+                            <div class="group-name">岩井俊二</div>
+                        </a>
+                    </li>
+                    <li class="group">
+                        <a href="/group/10442/">
+                            <img class="group-icon" data-src="https://img3.doubanio.com/view/group/sqxs/public/dc428faf517d872.jpg" alt="陈绮贞" />
+                            <div class="group-name">陈绮贞</div>
+                        </a>
+                    </li>
+            </ul>
+        </section>
+
+        
+    
+    
+  
+
+    
+    
+    <script id="template-theme-item" type="text/html">
+        <li class="Theme-item {extra_className}">
+            <a href="{url}" rel="nofollow">
+                <div>
+                    <div class="Theme-item-image" data-src="{cover}" data-type="cover"></div>
+                    <div class="Theme-item-info">
+                        <h3>{title}</h3>
+                        <p>{desc}</p>
+                    </div>
+                    <div class="Theme-item-action">
+                        <div class="Theme-item-button">打开应用查看</div>
+                    </div>
+                </div>
+            </a>
+        </li>
+    </script>
+    <section id="ThemesWidget">
+        <h2>值得一读</h2>
+        <div class="s-content">
+            <ul></ul>
+        </div>
+    </section>
+
+
+    
+    <section class="s-content center">
+    
+        
+
+    <div id="dale_talion_group_topic_bottom" class="Advertisement" ></div>
+    
+
+    
+</section>
+
+
+    
+
+
+    </div>
+
+    
+    
+        <div class="download-app">
+            <div class="info">
+                <img src="https://img3.doubanio.com/f/talion/7837f29dd7deab9416274ae374a59bc17b5f33c6/pics/card/douban-app-logo.png" width="48">
+                <div class="info-content">
+                    <strong>豆瓣</strong>
+                    <div></div>
+                </div>
+            </div>
+                <a href="https://www.douban.com/doubanapp/card/log?category=group&amp;cid=17359302&amp;action=click_download&amp;ref=http%3A//www.douban.com/doubanapp/app%3Fchannel%3Dcard_group%26direct_dl%3D1" rel="nofollow">去 App Store 免费下载 iOS 客户端</a>
+        </div>
+
+
+        </div>
+
+        <script src="https://img3.doubanio.com/f/talion/ee8e0c54293aefb5709ececbdf082f8091ad5e49/js/card/zepto.min.js"></script>
+        <script src="https://img3.doubanio.com/f/talion/5c296dff1a57cf667bef8fb0f45ef96d68955a24/js/card/main.js"></script>
+        <script src="https://img3.doubanio.com/f/talion/f53cc45d4a16969b8592d776f476d9784a283e4a/js/lib/douban-ad-helper.js"></script>
+
+
+
+        
+
+        
+
+    
+    
+
+    
+    
+        <script src="https://img3.doubanio.com/f/talion/88fc2b21c8dda5c93aa4c011eb15b74f8850978f/js/lib/react/15.3.0/react-all.min.js"></script>
+
+    
+  
+
+
+    <script src="https://img3.doubanio.com/f/talion/4b77ab66e050ad6aad575a6670a1ddb5c53e96b7/js/card/html5_video.js"></script>
+
+    
+    <script type="text/javascript">
+      var TalionData = window.TalionData || (window.TalionData = {})
+      TalionData.flatShare = {
+        title: document.title,
+        url: 'https://www.douban.com/doubanapp/dispatch?uri=/group/topic/17359302&amp;download=1&amp;channel=card_group',
+        imageUrl: '',
+        uri: 'douban://douban.com/group/topic/17359302'
+      }
+      ;(function(){
+          "use strict";function _toConsumableArray(r){if(Array.isArray(r)){for(var e=0,t=Array(r.length);e<r.length;e++)t[e]=r[e];return t}return Array.from(r)}function stopEvent(r){r.stopPropagation(),r.preventDefault()}function ajax(r){r.data=r.data||{},r.withCk!==!1&&(r.data.ck=get_cookie("ck")),r.data.for_mobile=1,r.error=r.error||function(r){return dui.toast.warn(r)};var e=r.ajaxError||function(){return dui.toast.networkError()};r.ajaxError=function(r){r=r||new Error("无网络连接"),r.isAjaxError=!0,e(r)},$.ajax($.extend({type:r.type||r.method||"GET",url:r.url,data:r.data,dataType:r.dataType||"json",xhrFields:{withCredentials:!0},success:function(e){e.error?r.error?r.error(e.error,e.data,e):alert(e.error):r.success&&r.success(e)},error:function(e){if(console.error(e),0===e.status)r.ajaxError&&r.ajaxError();else{var t=$.parseJSON(e.response);1e3===t.code&&(t.localized_message="没有登录",tryLoginMSite()),r.error&&r.error(t.localized_message,t)}},complete:function(e,t){r.complete&&r.complete(e,t)}},r.extra))}function autoBind(r){for(var e={},t=function(e){return r[e]instanceof Function&&!e.match(/^component|^render$|^constructor$/)},n=[].concat(_toConsumableArray(Object.keys(r).filter(t))),o=r;o=Object.getPrototypeOf(o);){var a=Object.getOwnPropertyNames(o);if(a.indexOf("setState")>=0)break;n=n.concat(a.filter(t))}return n.forEach(function(t){e[t]=r[t],r[t]=r[t].bind(r)}),e}function flatten(r){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:function(r){return r.id},t={ids:null,entities:{}};return t.ids=r.map(function(r){var n=e(r);return t.entities[n]=r,n}),t}function getQuery(r,e){r&&(/^http/.test(r)||r.indexOf("?")!==-1)||(e=r,r=location.href);var t=r.indexOf("?"),n={};if(t<0)return void 0===e?n:"";for(var o=r.substring(t+1),a=o.split("&"),c=void 0,i=void 0,u=void 0,s=0,l=a.length;s<l;s++)if(c=a[s].indexOf("="),c!==-1&&(i=a[s].substring(0,c),u=a[s].substring(c+1),n[i]=decodeURIComponent(u),e===i))return n[i];return void 0===e?n:""}function appendQuery(r){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},t=/(#.*)$/;e=_extends({},getQuery(r),e);var n=r.match(t),o=n?n[1]:"";r=r.replace(t,"").replace(/\?.*$/,"");var a=Object.keys(e).filter(function(r){return null!=e[r]}).map(function(t){return r=r.replace(new RegExp(t+"=[^&]+&?","g"),""),t+"="+encodeURIComponent(e[t])}).join("&");return r+"?"+a+o}function tryLoginMSite(){try{location.hostname.indexOf("dae-pre")>=0&&get_cookie("ck")&&ajax({url:"https://m.douban.com/pwa/offline",dataType:"html",extra:{timeout:1e4,error:function(r){return console.error(r)}}})}catch(r){window.console&&console.warn&&console.warn(r)}}function format(r,e){return r.replace(/\$\{(\s*\w+\s*)\}/g,function(r,t){return e[t.replace(/(^\s+)|(\s+$)/g,"")]||""})}var _extends=Object.assign||function(r){for(var e=1;e<arguments.length;e++){var t=arguments[e];for(var n in t)Object.prototype.hasOwnProperty.call(t,n)&&(r[n]=t[n])}return r},PropTypes=window.React&&React.PropTypes,REXXAR_API="https://m.douban.com/rexxar/api",DISPATCH_URL="https://www.douban.com/doubanapp/dispatch?from=mdouban&download=0&uri=",DOUBAN_URI_SCHEMA="douban://douban.com";ajax.all=function(r,e){var t=0,n={},o=function(o,a){return["success","error","ajaxError","complete"].reduce(function(c,i){return n[i]=[],c[i]=function(){for(var c,u=arguments.length,s=Array(u),l=0;l<u;l++)s[l]=arguments[l];n[i][a]=s,o[i]&&(c=o[i]).call.apply(c,[null].concat(s)),"complete"===i&&(t++,t===r.length&&Object.keys(e).forEach(function(r){var t;return(t=e[r]).call.apply(t,[null].concat(_toConsumableArray(n[r])))}))},c},{})};r.forEach(function(r,e){return ajax(_extends({},r,o(r,e)))})},document.referrer&&document.referrer.indexOf("https://accounts.douban.com/")>=0&&tryLoginMSite();
+          window.wxShareStat = {
+              channel: 'Talion',
+              parent_bid: getQuery('bid') || 0,
+              bid: 'a2VK0A97S-k' || 0,
+              object_id: '17359302',
+              object_kind: 'group_topic',
+              target: ''
+          }
+      })();
+
+      ;(function(){
+          var $noteBody = $('#note-body');
+          var $richNoteBody = $noteBody.find('.rich-note')
+          var $btnMore = $('.btn-more')
+          // truncated should before baidu xzh sdk
+          if ($richNoteBody.height() > 1000) {
+            $richNoteBody.addClass('truncated')
+            $btnMore.show()
+          }
+          $btnMore.on('click', function(){
+              var $this = $(this)
+              if ($this.hasClass('show-content')) {
+                  $noteBody.find('.full').show();
+                  $noteBody.find('.short').hide();
+                  $this.hide();
+              } else if ($(this).hasClass('show-rich-content')) {
+                $richNoteBody.removeClass('truncated')
+                $btnMore.hide()
+              }
+          })
+      })();
+    </script>
+    
+
+    
+
+
+
+    <script>
+        var PARAM = {
+            target_id: '17359302',
+            target_kind: '1013'
+        }
+        window.PARAM = window.PARAM || PARAM;
+    </script>
+    <script src="https://img3.doubanio.com/f/talion/237e8cf3705ea9f0cd613f5d295d8cc19fec45a7/components/utils/store-util/index.js"></script>
+    <script src="https://img3.doubanio.com/f/talion/5c73f728b607ed84c2f807a4e146e114cf4f521c/js/card/group/topic.js"></script>
+    
+
+
+        <script type="text/javascript" src="https://img3.doubanio.com/misc/mixed_static/57a298429df68247.js"></script><script type="text/javascript">
+        ;(function($){
+            $('#note-like-btn').on('click', function(){
+                var $btn = $(this);
+
+                if($btn.data('islogin') === 0){
+                    dui.LoginUtil.checkLogin()
+                    return;
+                }
+
+                if ($btn.hasClass('process')) return;
+                $btn.addClass('process');
+
+                var param = {
+                    'tid': "17359302",
+                    'tkind': "1013",
+                    'ck': get_cookie('ck'),
+                    'q': 'quiet'
+                }
+
+                var islike = $btn.attr('data-islike');
+
+                $.ajax({
+                    type: islike === '1' ? 'delete' : 'post',
+                    url: '/j/like/',
+                    data: param,
+                    dataType: 'json',
+                    success: function(res){
+                        var $num_btn = $btn.children();
+                        if(res.r === 0){
+                            $btn.attr('data-islike', islike === '1' ? '0' : '1');
+                            $num_btn.text(parseInt($num_btn.text()) + 1 * ( islike === '1' ? -1 : 1 ))
+                        }
+                    },
+                    complete: function(){
+                        $btn.removeClass('process');
+                    }
+                })
+            })
+        })(Zepto);
+    </script><script type="text/javascript" src="https://img3.doubanio.com/misc/mixed_static/7bf7177d6d86f2d4.js"></script><script type="text/javascript">
+        ;(function() {
+            // 保存帖子阅读历史
+            // TODO: 更换到 rexxar 页面后保存 rexxar api 的数据
+            var KEY = 'topic_history'
+            var topic_history = StoreUtil.get(KEY, [])
+            var $likeBtn = $('#note-like-btn')
+
+            var topic = {
+                id: '17359302',
+                title: '留下你的qq号看有多少人加、',
+                type: 'topic',
+                author: {
+                    id: '47407845',
+                    name: '度心',
+                    avatar: 'https://img3.doubanio.com/icon/up47407845-1.jpg'
+                },
+                group: {
+                    id: '12083',
+                    name: '安妮宝贝',
+                    avatar: 'https://img1.doubanio.com/view/group/sqxs/public/73c15faa07cce3a.jpg',
+                    member_count: 63856
+                },
+                liked: $likeBtn.data('data-islike') === '1',
+                like_count: parseInt($likeBtn.data('data-likenum'), 10),
+                comments_count: 554,
+                cover_url: $('#content .content_img img').eq(0).attr('src'),
+                update_time: '2011-02-01 02:41:24'
+            }
+            topic_history = topic_history.filter(function (t) {
+                return t.id !== topic.id;
+            });
+            topic_history.unshift(topic)
+            topic_history = topic_history.slice(0, 30)
+            StoreUtil.set(KEY, topic_history)
+
+        }());
+    </script><script type="text/javascript" src="https://img3.doubanio.com/misc/mixed_static/15b42a5391a4b96b.js"></script>
+        
+
+
+<script type="text/javascript" data-mobile="true">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = '//erebor.douban.com/',
+            userId = '',
+            browserId = 'a2VK0A97S-k',
+            criteria = '1:12083|2:作家|3:/group/topic/17359302/',
+            preview = '',
+            debug = false;
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, crtr: criteria, prv: preview, debug: debug};
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'https://img3.doubanio.com/f/adjs/f886512b31842ce18a9450be3e80f90c23f25260/ad.release.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+        
+  
+
+
+        <script type='text/javascript'>
+            
+            ;(function(global) {
+                if (window.DoubanAdRequest) {
+                    window.DoubanAdRequest.filter = []
+                }
+                global.DoubanAdSlots = global.DoubanAdSlots || []
+            })(window);
+        </script>
+            <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NZHN7H" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NZHN7H');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-53594431-3', {'sampleRate': 4});
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+        
+
+
+
+
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
-import urllib.request #导入网络请求库
-import random #导入随机函数库
+import urllib.request
+import random
 
 url = "http://www.baidu.com"
 
@@ -16,7 +16,7 @@ agents_str = random.choice(Agnet_list)
 
 #模拟请求头
 custom_headers = {
-    "User-Agnet":agents_str
+    "User-Agent":agents_str
 }
 
 #设置一个请求体
@@ -28,5 +28,5 @@ data = response.read()
 print(data)
 
 #将爬取到的网页写入文件
-with open(r"/Users/wukaihao/Desktop/python/hello.py/file/模拟浏览器爬虫.html","wb") as f:
+with open(r"/Users/wukaihao/Desktop/python/hello.py/测试的file/模拟浏览器爬虫.html","wb") as f:
     f.write(data)
