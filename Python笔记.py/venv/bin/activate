@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/wukaihao/Desktop/python/hello.py/venv"
+VIRTUAL_ENV="/Users/wukaihao/Desktop/python/Python笔记.py/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

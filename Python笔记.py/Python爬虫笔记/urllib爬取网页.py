@@ -41,6 +41,6 @@ import urllib.request
 
 #将爬取到的网页写入文件2
 #urlretrieve 在执行的过程中，会产生一些缓存
-urllib.request.urlretrieve("http://www.baidu.com",filename=r"/Users/wukaihao/Desktop/python/hello.py/测试的file/简单爬虫2.html")
+urllib.request.urlretrieve("http://www.baidu.com",filename=r"/Users/wukaihao/Desktop/python/Python笔记.py/测试的file/简单爬虫2.html")
 #清除缓存
 urllib.request.urlcleanup()

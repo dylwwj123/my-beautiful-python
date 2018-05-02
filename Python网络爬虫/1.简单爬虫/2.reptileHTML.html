@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+  <title>
+   大数据分析@唐松
+  </title>
+  <meta content="唐松的个人博客，分享大数据分析和 Python 网络爬虫的思考。" name="description"/>
+  <meta content="唐松, Santos, 博客" name="keywords"/>
+  <link href="http://www.santostang.com/wp-content/themes/SongStyle-Two/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="http://www.santostang.com/wp-content/themes/SongStyle-Two/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="http://www.santostang.com/wp-content/themes/SongStyle-Two/css/font-awesome.min.css" rel="stylesheet"/>
+  <script src="http://www.santostang.com/wp-content/themes/SongStyle-Two/js/jquery.min.js" type="text/javascript">
+  </script>
+  <script src="http://www.santostang.com/wp-content/themes/SongStyle-Two/js/bootstrap.min.js" type="text/javascript">
+  </script>
+  <link href="http://www.santostang.com/wp-content/themes/SongStyle-Two/style.css" rel="stylesheet"/>
+  <link href="http://www.santostang.com/xmlrpc.php" rel="pingback"/>
+  <link href="//s.w.org" rel="dns-prefetch"/>
+  <link href="http://www.santostang.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta" id="crayon-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.santostang.com/wp-content/plugins/crayon-syntax-highlighter/themes/classic/classic.css?ver=_2.7.2_beta" id="crayon-theme-classic-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.santostang.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco.css?ver=_2.7.2_beta" id="crayon-font-monaco-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.santostang.com/wp-json/" rel="https://api.w.org/"/>
+  <script src="http://www.santostang.com/wp-content/plugins/si-captcha-for-wordpress/captcha/si_captcha.js?ver=1525161293" type="text/javascript">
+  </script>
+  <!-- begin SI CAPTCHA Anti-Spam - login/register form style -->
+  <style type="text/css">
+   .si_captcha_small { width:175px; height:45px; padding-top:10px; padding-bottom:10px; }
+.si_captcha_large { width:250px; height:60px; padding-top:10px; padding-bottom:10px; }
+img#si_image_com { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_reg { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_log { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_side_login { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_checkout { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_jetpack { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_bbpress_topic { border-style:none; margin:0; padding-right:5px; float:left; }
+.si_captcha_refresh { border-style:none; margin:0; vertical-align:bottom; }
+div#si_captcha_input { display:block; padding-top:15px; padding-bottom:5px; }
+label#si_captcha_code_label { margin:0; }
+input#si_captcha_code_input { width:65px; }
+p#si_captcha_code { clear: left; padding-top:10px; }
+.si-captcha-jetpack-error { color:#DC3232; }
+  </style>
+  <!-- end SI CAPTCHA Anti-Spam - login/register form style -->
+ </head>
+ <body>
+  <header id="header">
+   <div class="avatar">
+    <img alt="数据科学@唐松Santos" class="img-circle" src="http://www.santostang.com/wp-content/themes/SongStyle-Two/images/avatar.jpg" width="50%"/>
+   </div>
+   <h3 id="name">
+    数据科学@唐松Santos
+   </h3>
+   <div class="sns">
+    <a href="http://www.santostang.com/feed/" rel="nofollow" target="_blank" title="RSS">
+     <i aria-hidden="true" class="fa fa-rss">
+     </i>
+    </a>
+    <a href="http://weibo.com/santostang" rel="nofollow" target="_blank" title="Weibo">
+     <i aria-hidden="true" class="fa fa-weibo">
+     </i>
+    </a>
+    <a href="https://www.linkedin.com/in/santostang" rel="nofollow" target="_blank" title="Linkedin">
+     <i aria-hidden="true" class="fa fa-linkedin">
+     </i>
+    </a>
+    <a href="mailto:tangsongsky@gmail.com" rel="nofollow" target="_blank" title="envelope">
+     <i aria-hidden="true" class="fa fa-envelope">
+     </i>
+    </a>
+   </div>
+   <div class="nav">
+    <ul>
+     <li class="current-menu-item">
+      <a href="http://www.santostang.com/">
+       首页
+      </a>
+     </li>
+     <li>
+      <a href="http://www.santostang.com/about-me/">
+       关于我
+      </a>
+     </li>
+     <li>
+      <a href="http://www.santostang.com/scrapy_code/">
+       爬虫代码
+      </a>
+     </li>
+     <li>
+      <a href="http://www.santostang.com/wp-login.php">
+       登录
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <div id="main">
+   <div class="row box">
+    <div class="col-md-8">
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/10/23/%e3%80%8a%e7%bd%91%e7%bb%9c%e7%88%ac%e8%99%ab%ef%bc%9a%e4%bb%8e%e5%85%a5%e9%97%a8%e5%88%b0%e5%ae%9e%e8%b7%b5%e3%80%8b%e4%b8%80%e4%b9%a6%e5%8b%98%e8%af%af/">
+         《网络爬虫：从入门到实践》一书勘误
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         10月23日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/big-data-marketing/" rel="category tag">
+          大数据营销
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/10/23/%e3%80%8a%e7%bd%91%e7%bb%9c%e7%88%ac%e8%99%ab%ef%bc%9a%e4%bb%8e%e5%85%a5%e9%97%a8%e5%88%b0%e5%ae%9e%e8%b7%b5%e3%80%8b%e4%b8%80%e4%b9%a6%e5%8b%98%e8%af%af/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        本书由于是第一版，因此还存在一些差错，希望各位读者谅解。
+
+另外，感谢各位读者的指正，现将本书的错误之处一并放在此处，方便其他读者更好阅读和使用此书。也欢迎大家在知乎私信或者留言给我，我会持续更新此...
+       </p>
+      </div>
+     </article>
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/10/22/%e5%9b%bd%e5%86%85%e4%b8%8b%e8%bd%bdanaconda%e9%80%9f%e5%ba%a6%e6%85%a2%ef%bc%8c%e8%af%b7%e4%bd%bf%e7%94%a8%e6%b8%85%e5%8d%8e%e9%95%9c%e5%83%8f/">
+         国内下载Anaconda速度慢，请使用清华镜像
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         10月22日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/python_web_scrappy/" rel="category tag">
+          python 网络爬虫
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/10/22/%e5%9b%bd%e5%86%85%e4%b8%8b%e8%bd%bdanaconda%e9%80%9f%e5%ba%a6%e6%85%a2%ef%bc%8c%e8%af%b7%e4%bd%bf%e7%94%a8%e6%b8%85%e5%8d%8e%e9%95%9c%e5%83%8f/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        近日，有不少读者反映，我在书中给出的 Anaconda 链接无法访问，或者下载超过了几个小时。
+
+这是因为祖国的 GFW 啊，访问国外网站始终很慢。有这个问题请大家使用清华大学的镜像吧，链接：
+https://mirrors.tuna....
+       </p>
+      </div>
+     </article>
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/09/25/4-3-%e9%80%9a%e8%bf%87-selenium-%e6%a8%a1%e6%8b%9f%e6%b5%8f%e8%a7%88%e5%99%a8%e6%8a%93%e5%8f%96/">
+         4.3 通过 selenium 模拟浏览器抓取
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         09月25日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/big-data-marketing/" rel="category tag">
+          大数据营销
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/09/25/4-3-%e9%80%9a%e8%bf%87-selenium-%e6%a8%a1%e6%8b%9f%e6%b5%8f%e8%a7%88%e5%99%a8%e6%8a%93%e5%8f%96/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        4.3 通过 selenium 模拟浏览器抓取
+
+在之前的例子中，使用 Chrome 的“检查”功能找到源地址十分容易，但是有一些网站非常复杂，如天猫产品评论，使用“检查”功能很难找到调用的网页地址。除此之外，有一些数据...
+       </p>
+      </div>
+     </article>
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/09/25/4-2-%e8%a7%a3%e6%9e%90%e7%9c%9f%e5%ae%9e%e5%9c%b0%e5%9d%80%e6%8a%93%e5%8f%96/">
+         4.2 解析真实地址抓取
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         09月25日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/big-data-marketing/" rel="category tag">
+          大数据营销
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/09/25/4-2-%e8%a7%a3%e6%9e%90%e7%9c%9f%e5%ae%9e%e5%9c%b0%e5%9d%80%e6%8a%93%e5%8f%96/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        4.2 解析真实地址抓取
+
+虽然数据并没有出现在网页源代码中，我们也可以找到数据的真实地址，请求这个真实地址也可以获得想要的数据。这里用到浏览器的“检查”功能。 下面以笔者博客的“Hello World”文章为例，...
+       </p>
+      </div>
+     </article>
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/09/25/4-1-%e5%8a%a8%e6%80%81%e6%8a%93%e5%8f%96%e7%9a%84%e5%ae%9e%e4%be%8b/">
+         4.1 动态抓取的实例
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         09月25日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/big-data-marketing/" rel="category tag">
+          大数据营销
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/09/25/4-1-%e5%8a%a8%e6%80%81%e6%8a%93%e5%8f%96%e7%9a%84%e5%ae%9e%e4%be%8b/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        4.1 动态抓取的实例
+
+在开始爬取动态网页前，我们还需要了解一种异步更新技术— AJAX(Asynchronous Javascript And XML，异步 JavaScript 和 XML)。它的价值在于通过在后台与服务器进行少量数据交换就可以使网页实...
+       </p>
+      </div>
+     </article>
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/03/08/hello-python/">
+         Hello Python!
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         03月08日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/big-data-marketing/" rel="category tag">
+          大数据营销
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/03/08/hello-python/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        This is an article for testing. I use it to show the example in my book Web Scrappy by Python.
+Test
+       </p>
+      </div>
+     </article>
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/03/07/echarts%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b02-%e5%8d%95%e9%a1%b5%e9%9d%a2%e5%a4%9a%e5%bc%a0%e5%9b%be%e8%a1%a8/">
+         echarts学习笔记(2) — 同一页面多图表
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         03月07日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/big-data-marketing/" rel="category tag">
+          大数据营销
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/03/07/echarts%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b02-%e5%8d%95%e9%a1%b5%e9%9d%a2%e5%a4%9a%e5%bc%a0%e5%9b%be%e8%a1%a8/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        本文首发于 CSDN，当年，也就是2014年，我还是在大四的最后一个暑假，在 EMC 做实习，用 echarts做一个可视化的工具。
+
+在一个页面只是一个图表很简单，如果要在一个页面中添加多张图的话，怎么办呢？
+
+      
+
+...
+       </p>
+      </div>
+     </article>
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/03/07/echarts%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b01-%e4%bd%bf%e7%94%a8%e6%a8%a1%e5%9d%97%e5%8c%96%e5%8d%95%e6%96%87%e4%bb%b6%e5%bc%95%e5%85%a5/">
+         echarts学习笔记(1) — 模块化单文件引入
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         03月07日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/%e6%95%b0%e6%8d%ae%e5%8f%af%e8%a7%86%e5%8c%96/" rel="category tag">
+          数据可视化
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/03/07/echarts%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b01-%e4%bd%bf%e7%94%a8%e6%a8%a1%e5%9d%97%e5%8c%96%e5%8d%95%e6%96%87%e4%bb%b6%e5%bc%95%e5%85%a5/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+         <a href="http://www.santostang.com/tag/echarts/" rel="tag">
+          Echarts
+         </a>
+         ,
+         <a href="http://www.santostang.com/tag/%e5%a4%a7%e6%95%b0%e6%8d%ae/" rel="tag">
+          大数据
+         </a>
+         ,
+         <a href="http://www.santostang.com/tag/%e6%95%b0%e6%8d%ae%e5%8f%af%e8%a7%86%e5%8c%96/" rel="tag">
+          数据可视化
+         </a>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        本文首发于 CSDN，地址为：echarts学习笔记(1)。当年，也就是2014年，我还是在大四的最后一个暑假，在 EMC 做实习，用 echarts做一个可视化的工具。
+
+因为最近需要用到echarts来做 BI 商业智能工具, 而echarts相...
+       </p>
+      </div>
+     </article>
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/03/06/%e3%80%90%e7%88%ac%e8%99%ab%e4%ba%8c%e3%80%91%e7%88%ac%e8%99%ab%e7%9a%84%e6%a1%86%e6%9e%b6%e5%92%8c%e5%9f%ba%e6%9c%ac%e8%ae%ae%e9%a2%98/">
+         【爬虫二】爬虫的框架和基本议题
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         03月06日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/python_web_scrappy/" rel="category tag">
+          python 网络爬虫
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/03/06/%e3%80%90%e7%88%ac%e8%99%ab%e4%ba%8c%e3%80%91%e7%88%ac%e8%99%ab%e7%9a%84%e6%a1%86%e6%9e%b6%e5%92%8c%e5%9f%ba%e6%9c%ac%e8%ae%ae%e9%a2%98/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+         <a href="http://www.santostang.com/tag/python/" rel="tag">
+          python
+         </a>
+         ,
+         <a href="http://www.santostang.com/tag/%e5%a4%a7%e6%95%b0%e6%8d%ae/" rel="tag">
+          大数据
+         </a>
+         ,
+         <a href="http://www.santostang.com/tag/%e7%bd%91%e7%bb%9c%e7%88%ac%e8%99%ab/" rel="tag">
+          网络爬虫
+         </a>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        本文首发于知乎专栏，@唐松。链接：知乎专栏：【爬虫二】爬虫的框架和基本议题
+
+爬虫的技术文章很少有从整体角度来说的，这次就从一个宏观的角度出发，希望通过这篇文章说清楚三个问题：
+
+
+爬虫的流程是怎样的？
+...
+       </p>
+      </div>
+     </article>
+     <article class="article-list-1 clearfix">
+      <header class="clearfix">
+       <h1 class="post-title">
+        <a href="http://www.santostang.com/2017/03/06/%e3%80%90%e7%88%ac%e8%99%ab%e4%b8%80%e3%80%91%e6%9c%80%e7%ae%80%e5%8d%95%e7%9a%84%e7%88%ac%e8%99%ab%ef%bc%8c%e9%9b%b6%e5%9f%ba%e7%a1%80%e6%95%99%e5%ad%a6/">
+         【爬虫一】最简单的爬虫，零基础教学
+        </a>
+       </h1>
+       <div class="post-meta">
+        <span class="meta-span">
+         <i class="fa fa-calendar">
+         </i>
+         03月06日
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-folder-open-o">
+         </i>
+         <a href="http://www.santostang.com/category/python_web_scrappy/" rel="category tag">
+          python 网络爬虫
+         </a>
+        </span>
+        <span class="meta-span">
+         <i class="fa fa-commenting-o">
+         </i>
+         <a href="http://www.santostang.com/2017/03/06/%e3%80%90%e7%88%ac%e8%99%ab%e4%b8%80%e3%80%91%e6%9c%80%e7%ae%80%e5%8d%95%e7%9a%84%e7%88%ac%e8%99%ab%ef%bc%8c%e9%9b%b6%e5%9f%ba%e7%a1%80%e6%95%99%e5%ad%a6/#respond">
+          没有评论
+         </a>
+        </span>
+        <span class="meta-span hidden-xs">
+         <i aria-hidden="true" class="fa fa-tags">
+         </i>
+         <a href="http://www.santostang.com/tag/python/" rel="tag">
+          python
+         </a>
+         ,
+         <a href="http://www.santostang.com/tag/%e5%a4%a7%e6%95%b0%e6%8d%ae/" rel="tag">
+          大数据
+         </a>
+         ,
+         <a href="http://www.santostang.com/tag/%e7%bd%91%e7%bb%9c%e7%88%ac%e8%99%ab/" rel="tag">
+          网络爬虫
+         </a>
+        </span>
+       </div>
+      </header>
+      <div class="post-content clearfix">
+       <p>
+        爬虫在大数据时代占据了重要的位置，在网上有大量的公开数据可以轻松获取。
+
+爬虫入门其实非常简单，就算你是编程小白，也可以轻松爬下一些网站。下面就以爬大众点评 在深圳市搜索潮汕牛肉的结果为例，教大家学会...
+       </p>
+      </div>
+     </article>
+     <nav style="float:right">
+      <ul class="pagination">
+       <li class="active">
+        <a href="http://www.santostang.com/">
+         1
+         <span class="sr-only">
+          (current)
+         </span>
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/page/2/">
+         2
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+    <div class="col-md-4 hidden-xs hidden-sm">
+     <aside class="widget clearfix">
+      <form action="http://www.santostang.com" id="searchform">
+       <div class="input-group">
+        <input class="form-control" name="s" placeholder="搜索…" type="search" value=""/>
+        <span class="input-group-btn">
+         <button class="btn btn-default" type="submit">
+          <i aria-hidden="true" class="fa fa-search">
+          </i>
+         </button>
+        </span>
+       </div>
+      </form>
+     </aside>
+     <aside class="widget clearfix">
+      <h4 class="widget-title">
+       文章分类
+      </h4>
+      <div class="widget-cat">
+       <ul>
+        <li class="cat-item cat-item-3">
+         <a href="http://www.santostang.com/category/python_web_scrappy/">
+          python 网络爬虫
+         </a>
+         (4)
+        </li>
+        <li class="cat-item cat-item-1">
+         <a href="http://www.santostang.com/category/big-data-marketing/">
+          大数据营销
+         </a>
+         (6)
+        </li>
+        <li class="cat-item cat-item-9">
+         <a href="http://www.santostang.com/category/%e6%95%b0%e6%8d%ae%e5%8f%af%e8%a7%86%e5%8c%96/">
+          数据可视化
+         </a>
+         (1)
+        </li>
+       </ul>
+      </div>
+     </aside>
+     <aside class="widget clearfix">
+      <h4 class="widget-title">
+       热门文章
+      </h4>
+      <ul class="widget-hot">
+      </ul>
+     </aside>
+     <aside class="widget clearfix">
+      <h4 class="widget-title">
+       随机推荐
+      </h4>
+      <ul class="widget-hot">
+       <li>
+        <a href="http://www.santostang.com/2017/03/02/hello-world/" title="Hello world!">
+         Hello world!
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/2017/09/25/4-1-%e5%8a%a8%e6%80%81%e6%8a%93%e5%8f%96%e7%9a%84%e5%ae%9e%e4%be%8b/" title="4.1 动态抓取的实例">
+         4.1 动态抓取的实例
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/2017/10/23/%e3%80%8a%e7%bd%91%e7%bb%9c%e7%88%ac%e8%99%ab%ef%bc%9a%e4%bb%8e%e5%85%a5%e9%97%a8%e5%88%b0%e5%ae%9e%e8%b7%b5%e3%80%8b%e4%b8%80%e4%b9%a6%e5%8b%98%e8%af%af/" title="《网络爬虫：从入门到实践》一书勘误">
+         《网络爬虫：从入门到实践》一书勘误
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/2017/10/22/%e5%9b%bd%e5%86%85%e4%b8%8b%e8%bd%bdanaconda%e9%80%9f%e5%ba%a6%e6%85%a2%ef%bc%8c%e8%af%b7%e4%bd%bf%e7%94%a8%e6%b8%85%e5%8d%8e%e9%95%9c%e5%83%8f/" title="国内下载Anaconda速度慢，请使用清华镜像">
+         国内下载Anaconda速度慢，请使用清华镜像
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/2017/03/07/echarts%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b02-%e5%8d%95%e9%a1%b5%e9%9d%a2%e5%a4%9a%e5%bc%a0%e5%9b%be%e8%a1%a8/" title="echarts学习笔记(2) — 同一页面多图表">
+         echarts学习笔记(2) — 同一页面多图表
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/2017/03/08/hello-python/" title="Hello Python!">
+         Hello Python!
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/2017/03/06/%e3%80%90%e7%88%ac%e8%99%ab%e4%ba%8c%e3%80%91%e7%88%ac%e8%99%ab%e7%9a%84%e6%a1%86%e6%9e%b6%e5%92%8c%e5%9f%ba%e6%9c%ac%e8%ae%ae%e9%a2%98/" title="【爬虫二】爬虫的框架和基本议题">
+         【爬虫二】爬虫的框架和基本议题
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/2017/03/07/echarts%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b01-%e4%bd%bf%e7%94%a8%e6%a8%a1%e5%9d%97%e5%8c%96%e5%8d%95%e6%96%87%e4%bb%b6%e5%bc%95%e5%85%a5/" title="echarts学习笔记(1) — 模块化单文件引入">
+         echarts学习笔记(1) — 模块化单文件引入
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/2017/03/06/%e3%80%90%e7%88%ac%e8%99%ab%e4%b8%80%e3%80%91%e6%9c%80%e7%ae%80%e5%8d%95%e7%9a%84%e7%88%ac%e8%99%ab%ef%bc%8c%e9%9b%b6%e5%9f%ba%e7%a1%80%e6%95%99%e5%ad%a6/" title="【爬虫一】最简单的爬虫，零基础教学">
+         【爬虫一】最简单的爬虫，零基础教学
+        </a>
+       </li>
+       <li>
+        <a href="http://www.santostang.com/2017/09/25/4-2-%e8%a7%a3%e6%9e%90%e7%9c%9f%e5%ae%9e%e5%9c%b0%e5%9d%80%e6%8a%93%e5%8f%96/" title="4.2 解析真实地址抓取">
+         4.2 解析真实地址抓取
+        </a>
+       </li>
+      </ul>
+     </aside>
+     <aside class="widget clearfix">
+      <h4 class="widget-title">
+       标签云
+      </h4>
+      <div class="widget-tags">
+       <a class="tag-link-11 tag-link-position-1" href="http://www.santostang.com/tag/echarts/" style="color:#7c2e76;font-size: 8pt;;" title="1个话题">
+        Echarts
+       </a>
+       <a class="tag-link-6 tag-link-position-2" href="http://www.santostang.com/tag/python/" style="color:#732472;font-size: 16.4pt;;" title="2个话题">
+        python
+       </a>
+       <a class="tag-link-8 tag-link-position-3" href="http://www.santostang.com/tag/%e5%a4%a7%e6%95%b0%e6%8d%ae/" style="color:#14aa2;font-size: 22pt;;" title="3个话题">
+        大数据
+       </a>
+       <a class="tag-link-10 tag-link-position-4" href="http://www.santostang.com/tag/%e6%95%b0%e6%8d%ae%e5%8f%af%e8%a7%86%e5%8c%96/" style="color:#c1c35c;font-size: 8pt;;" title="1个话题">
+        数据可视化
+       </a>
+       <a class="tag-link-7 tag-link-position-5" href="http://www.santostang.com/tag/%e7%bd%91%e7%bb%9c%e7%88%ac%e8%99%ab/" style="color:#665c99;font-size: 16.4pt;;" title="2个话题">
+        网络爬虫
+       </a>
+      </div>
+     </aside>
+     <aside class="widget clearfix">
+      <h4 class="widget-title">
+       友情链接
+      </h4>
+      <ul class="widget-links">
+       <li>
+        <a href="http://www.santostang.com/wp-login.php">
+         登录
+        </a>
+       </li>
+      </ul>
+     </aside>
+    </div>
+   </div>
+  </div>
+  <footer id="footer">
+   <div class="copyright">
+    <p>
+     <i aria-hidden="true" class="fa fa-copyright">
+     </i>
+     2017
+     <b>
+      数据科学@唐松Santos
+     </b>
+    </p>
+    <p>
+     Powered by
+     <b>
+      WordPress
+     </b>
+     . Theme by
+     <a href="http://tangjie.me/jiestyle" target="_blank" title="JieStyle">
+      <b>
+       JieStyle Two
+      </b>
+     </a>
+     |
+    </p>
+   </div>
+   <div style="display:none;">
+   </div>
+  </footer>
+  <script src="http://www.santostang.com/wp-content/themes/SongStyle-Two/js/skel.min.js" type="text/javascript">
+  </script>
+  <script src="http://www.santostang.com/wp-content/themes/SongStyle-Two/js/util.min.js" type="text/javascript">
+  </script>
+  <script src="http://www.santostang.com/wp-content/themes/SongStyle-Two/js/nav.js" type="text/javascript">
+  </script>
+  <script src="http://www.santostang.com/wp-includes/js/jquery/jquery.js?ver=1.12.4" type="text/javascript">
+  </script>
+  <script src="http://www.santostang.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   /* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/www.santostang.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+  </script>
+  <script src="http://www.santostang.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta" type="text/javascript">
+  </script>
+  <script src="http://www.santostang.com/wp-includes/js/wp-embed.min.js?ver=4.7.10" type="text/javascript">
+  </script>
+  <script>
+   (function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+  </script>
+ </body>
+</html>
