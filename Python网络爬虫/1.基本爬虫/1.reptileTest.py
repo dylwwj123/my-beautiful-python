@@ -1,7 +1,6 @@
 import requests, random, os
 from bs4 import BeautifulSoup
 
-
 def getResponse(url, pathUrl):
 
     Agnet_list = [

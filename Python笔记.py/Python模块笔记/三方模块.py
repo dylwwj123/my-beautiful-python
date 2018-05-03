@@ -23,7 +23,7 @@
 # im.save('thumbnail.jpg', 'jpeg')
 
 import bs4
-# import requests
+import requests
 
 # # r = requests.post('https://www.douban.com/',params={'q': 'python', 'cat': '1001'})
 # # print(r.status_code)
