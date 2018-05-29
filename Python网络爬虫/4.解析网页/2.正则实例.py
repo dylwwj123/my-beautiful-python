@@ -25,8 +25,15 @@ def getResponse(url):
     except requests.exceptions.Timeout:
         return "请求超时"
 
-reptileUrl = "https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000"
-print(getResponse(reptileUrl))
+reptileUrl = "https://movie.douban.com/chart"
 
-re_match3 = re.findall(r'class="x-wiki-index-item">(.*?)</a>',getResponse(reptileUrl))
-print(re_match3)
+re_findallTitle = re.findall(r'title="(.*?)">',getResponse(reptileUrl), re.S)
+
+re_findallDetileTitle = re.findall(r'<span style="font-size:13px;">(.*?)</span>',getResponse(reptileUrl), re.S)
+
+re_list_findall = []
+for rangeIndex in range(len(re_findallDetileTitle)):
+    re_str_findall = re_findallTitle[rangeIndex] + r" / %s" %(re_findallDetileTitle[rangeIndex])
+    re_list_findall.append(re_str_findall)
+
+print(re_list_findall)

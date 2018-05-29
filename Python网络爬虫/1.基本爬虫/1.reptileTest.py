@@ -15,7 +15,7 @@ def getResponse(url, pathUrl):
     }
 
     try:
-        str_response = requests.get(url, headers=headers, timeout=0.1)
+        str_response = requests.get(url, headers=headers, timeout=1)
         print("状态码: ", str_response.status_code)
         print("文本编码: ", str_response.encoding)
 
