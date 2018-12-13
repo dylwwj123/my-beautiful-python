@@ -35,4 +35,4 @@ def  imageCrawler(url, topath):
         num += 1
         urllib.request.urlretrieve("http://"+imgurl,filename=path)
 
-imageCrawler("https://search.yhd.com/c9719-0-0", "/Users/wukaihao/Desktop/python/hello.py/测试的file/爬取image")
+imageCrawler("https://search.yhd.com/c9719-0-0", "/Users/wangwenshuai/my-beautiful-python/Python笔记.py/Python爬虫笔记/imaeg")

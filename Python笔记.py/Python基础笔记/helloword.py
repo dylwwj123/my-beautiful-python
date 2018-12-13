@@ -1,5 +1,5 @@
 #单行输出函数
-print ("\nhello python")
+print("\nhello python")
 
 #多行,段落输出函数
 print("""
@@ -18,8 +18,8 @@ print ("hello python")
 #python代码要严格对齐
 
 #/除法 //整除
-print (5/2)
-print (5//2)
+print(5/2)
+print(5//2)
 
 #所有关键字
 import keyword
