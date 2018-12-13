@@ -12,8 +12,6 @@
 #-*- coding:utf-8 -*-
 
 if __name__ == '__main__':
-    pass
-else:
     import http.client
     import urllib
 

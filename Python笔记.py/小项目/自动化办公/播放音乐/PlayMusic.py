@@ -2,7 +2,7 @@
 import time
 import pygame
 
-path1 = r"/Users/wukaihao/Desktop/python/hello.py/小项目/自动化办公/播放音乐/影子传说.Mp3"
+path1 = r"/Users/wangwenshuai/my-beautiful-python/Python笔记.py/小项目/自动化办公/播放音乐/影子传说.Mp3"
 
 pygame.mixer.init()
 
